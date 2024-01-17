@@ -1,0 +1,77 @@
+@import url(//fonts.googleapis.com/css?family=Roboto&display=swap);
+@import url(//cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css);
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body, input, button {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: #333;
+}
+
+input[type=text] {
+    border-radius: 10px;
+    border: 1px solid #eee;
+    margin: 3px 0;
+    width: 200px;
+    padding: 8px 5px;
+}
+
+button {
+    background-color: #ff3111;
+    color: #FFF;
+    border: 0;
+    border-radius: 10px;
+    padding: 1em 2em;
+    cursor: pointer;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hint {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.welcome h1,
+.welcome h2 {
+    text-align: center;
+}
+
+.welcome input {
+    width: 100%;
+}
+
+.wrapper td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.welcome .player-name {
+    margin: 30px 0;
+}
+
+a {
+    display: inline-block;
+    width: 100px;
+    height: 25px;
+    background-color: #ee7360;
+    color: #FFF;
+    border: 0;
+    border-radius: 10px;
+    padding: 1em 2em;
+    cursor: pointer;
+}
